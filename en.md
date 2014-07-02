@@ -1,23 +1,23 @@
 # The Micro-library Charter
 
-All micro-libraries are required to agree with the below Micro-library Charter.
+All micro-libraries are required to agree with the Micro-library Charter below.
 
 ## What is a micro-library?
 
 - There're books and people.
-- We read books as we like.
-- We share books, we share experiences.
-- The books shows people and knows people.
+- Free to read books as you like.
+- Free to share books and share experiences.
+- See yourself through the bookshelf.
 
-## We encourage you:
+## We encourage you to:
 
 - Read books, talk with people.
 - Recommend books, introduce people.
 - Share your interest, express yourself.
 - Provide diversity and new experiences.
-- Provide relaxing atmosphere.
+- Provide a relaxing atmosphere.
 - Meet up under a theme and a book.
-- Open to the local and society.
+- Be open to the local community.
 - Communicate with other micro-libraries.
 
-This charter is always updating and open to your feedbacks.
+This charter is always updated and open to your feedback.
