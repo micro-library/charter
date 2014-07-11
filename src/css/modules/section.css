@@ -1,0 +1,15 @@
+/*!
+ * グルーパルナビゲーション
+ */
+ 
+body > section {
+  padding: 2em;
+  background: #fff;
+}
+body > section > h1 {
+  display: none;
+}
+body > section > ul {
+  text-align: left;
+  padding-left: 4em;
+}

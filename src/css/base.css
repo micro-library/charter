@@ -1,0 +1,22 @@
+/*!
+ * ベースのスタイル
+ */
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font:16px 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+a {
+  color: #2e9ad9;
+}
+
+.under-construction {
+  color: #cd8585;
+  font-size: 75%;
+  margin: 0;
+  padding: .2em;
+  background: #FFF;
+}

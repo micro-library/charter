@@ -1,0 +1,10 @@
+body {
+  color: #423933;
+  background: #f6efd8;
+}
+
+.title > h1,
+body > section > h2,
+body > footer h2 {
+  font-family: 'Glass Antiqua', cursive;
+}
