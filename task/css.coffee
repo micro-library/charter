@@ -7,7 +7,7 @@ replace      = require 'gulp-replace'
 SRC  = './src/css'
 DIST = './dist/css'
 
-module.exports = ->
+gulp.task 'css', ->
   gulp.src ["#{SRC}/style.css"]
   .pipe cssimport()
   .pipe autoprefixer 'last 2 versions'

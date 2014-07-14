@@ -5,12 +5,12 @@ iconfont    = require 'gulp-iconfont'
 consolidate = require 'gulp-consolidate'
 merge       = require 'merge-stream'
 
-SRC      = './src/font'
+SRC      = './src/icon'
 DIST     = './dist/font'
 FONTNAME = 'micro-library' # set name of your symbol font
 TEMPLATE = 'fontawesome-style' # you can also choose 'foundation-style'
 
-module.exports = ->
+gulp.task 'icon', ->
   gulp.src "#{SRC}/symbol-font-16px.sketch" # you can also choose "symbol-font-16px.sketch"
     .pipe sketch
       export: 'artboards'

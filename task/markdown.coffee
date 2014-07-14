@@ -2,11 +2,10 @@ gulp    = require 'gulp'
 changed = require 'gulp-changed'
 replace = require 'gulp-replace'
 
-SRC  = './src'
-DIST = './dist'
+SRC  = './src/markdown'
+DIST = './dist/markdown'
 
-module.exports = ->
-  gulp.src ["#{SRC}/index.html"]
+gulp.task 'markdown', ->
+  gulp.src ["#{SRC}/*.md"]
   .pipe changed "#{DIST}/"
-  .pipe replace '../dist/js/', 'js/'
   .pipe gulp.dest "#{DIST}/"

@@ -1,7 +1,7 @@
 module.exports = ($location, $translate, $scope) ->
   $scope.changeLanguage = (lang) ->
     $translate.use lang
-    $scope.document_path = "docs/#{lang}.md"
+    $scope.document_path = "markdown/#{lang}.md"
     $scope.lang = lang
   
   $scope.$watch ->

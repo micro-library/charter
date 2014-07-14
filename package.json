@@ -37,6 +37,8 @@
     "browser-sync": "*",
     "marked": "*",
     "run-sequence": "*",
+    "require-dir": "*",
+    "del": "*",
     
     "bower": "*",
     "browserify": "*",

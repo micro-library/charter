@@ -2,9 +2,9 @@ gulp    = require 'gulp'
 csslint = require 'gulp-csslint'
 notify  = require 'gulp-notify'
 
-SRC  = './src/font'
+SRC  = './src/css'
 
-module.exports = ->
+gulp.task 'csslint', ->
   gulp.src ["#{SRC}/**/*.css"]
   .pipe csslint()
   .pipe csslint.reporter()
