@@ -3,7 +3,7 @@ changed = require 'gulp-changed'
 replace = require 'gulp-replace'
 
 SRC  = './src/docs'
-DIST = './app/docs'
+DIST = './dist/docs'
 
 module.exports = ->
   gulp.src ["#{SRC}/*.md"]

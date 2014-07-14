@@ -5,7 +5,7 @@ minifyCss    = require 'gulp-minify-css'
 replace      = require 'gulp-replace'
 
 SRC  = './src/css'
-DIST = './app/css'
+DIST = './dist/css'
 
 module.exports = ->
   gulp.src ["#{SRC}/style.css"]

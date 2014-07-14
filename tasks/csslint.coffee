@@ -3,7 +3,6 @@ csslint = require 'gulp-csslint'
 notify  = require 'gulp-notify'
 
 SRC  = './src/font'
-DIST = './app/font'
 
 module.exports = ->
   gulp.src ["#{SRC}/**/*.css"]

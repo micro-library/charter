@@ -3,10 +3,10 @@ changed = require 'gulp-changed'
 replace = require 'gulp-replace'
 
 SRC  = './src'
-DIST = './app'
+DIST = './dist'
 
 module.exports = ->
-  gulp.src ["#{SRC}/**/*.html"]
+  gulp.src ["#{SRC}/index.html"]
   .pipe changed "#{DIST}/"
-  .pipe replace '../app/js/', 'js/'
+  .pipe replace '../dist/js/', 'js/'
   .pipe gulp.dest "#{DIST}/"

@@ -6,7 +6,7 @@ consolidate = require 'gulp-consolidate'
 merge       = require 'merge-stream'
 
 SRC      = './src/font'
-DIST     = './app/font'
+DIST     = './dist/font'
 FONTNAME = 'micro-library' # set name of your symbol font
 TEMPLATE = 'fontawesome-style' # you can also choose 'foundation-style'
 
