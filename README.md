@@ -13,13 +13,21 @@ It's always updated and open to your feedback.
 ### For normals
 
 0. Make your own account on [GitHub](https://github.com/signup)
-0. Create new issue at [issues](https://github.com/micro-library/charter/issues)
+0. Create a new issue at [issues](https://github.com/micro-library/charter/issues)
 0. Have a discussion with others
 
 ### For techies
 
 0. Fork this repo
-0. Edit or add the file under `src/markdown`
+0. Edit the file under `src/markdown`
+0. Send a pull request
+
+
+## Contribute for translation
+
+0. Fork this repo
+0. Add a document in your language under `src/markdown`
+0. Add a translation file (json) under `src/locale`
 0. Send a pull request
 
 
@@ -37,4 +45,3 @@ We use AngularJS, CoffeeScript, Browserify, BrowserSync, gulp.js and more.
 0. Build: `$ gulp`
 0. Watch: `$ gulp watch`
 0. Let's start!
-
