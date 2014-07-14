@@ -1,6 +1,14 @@
-module.exports = ($translate, $scope) ->
-  lang = $translate.use()
-  $scope.changeLanguage = (langKey) ->
-    $translate.use langKey
-    $scope.document_path = "docs/#{langKey}.md"
-  $scope.changeLanguage lang
+module.exports = ($location, $translate, $scope) ->
+  $scope.changeLanguage = (lang) ->
+    $translate.use lang
+    $scope.document_path = "docs/#{lang}.md"
+    $scope.lang = lang
+  
+  $scope.$watch ->
+    $location.url()
+  , (url) ->
+    switch url
+      when '/ja' then $scope.changeLanguage 'ja'
+      else $scope.changeLanguage 'en'
+  
+  $scope.changeLanguage $translate.use()
