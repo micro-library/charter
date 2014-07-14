@@ -59,8 +59,6 @@
     "gulp-less": "*",
     "gulp-minify-css": "*",
     "gulp-notify": "*",
-    "gulp-phantom": "*",
-    "gulp-prettify": "*",
     "gulp-rename": "*",
     "gulp-replace": "*",
     "gulp-sketch": "*",
